@@ -72,7 +72,8 @@
   &::before {
     position: absolute;
     top: -18px;
-    left: 50px;
+    left: 50%;
+    transform: translateX(-50%);
     content: '';
     background-image: url('../images/customer-reviews/dots.svg');
     width: 32px;
@@ -118,7 +119,6 @@
 
     &::before {
       top: -14px;
-      left: 59px;
     }
   }
 }
@@ -166,7 +166,6 @@
 
     &::before {
       top: -15px;
-      left: 75px;
     }
   }
 }

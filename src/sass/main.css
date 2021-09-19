@@ -2070,7 +2070,9 @@ body {
 .customer-reviews__customer::before {
   position: absolute;
   top: -18px;
-  left: 50px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
   content: '';
   background-image: url("../images/customer-reviews/dots.svg");
   width: 32px;
@@ -2108,7 +2110,6 @@ body {
   }
   .customer-reviews__customer::before {
     top: -14px;
-    left: 59px;
   }
 }
 
@@ -2141,7 +2142,6 @@ body {
   }
   .customer-reviews__customer::before {
     top: -15px;
-    left: 75px;
   }
 }
 
